@@ -20,10 +20,11 @@ local a, b = {
                 "ModuleScript",
                 {"Themes"},
                 {
-                    {50, "ModuleScript", {"Dark"}},
-                    {52, "ModuleScript", {"Light"}},
-                    {51, "ModuleScript", {"Darker"}},
-                    {53, "ModuleScript", {"Rose"}},
+                    {50, "ModuleScript", {"Red"}},
+                    {51, "ModuleScript", {"Dark"}},
+                    {53, "ModuleScript", {"Light"}},
+                    {52, "ModuleScript", {"Darker"}},
+                    {54, "ModuleScript", {"Rose"}},
                     {49, "ModuleScript", {"Aqua"}},
                     {48, "ModuleScript", {"Amethyst"}}
                 }
@@ -5064,7 +5065,7 @@ local aa = {
     end,
     [47] = function()
         local aa, ab, ac, ad, ae = b(47)
-        local af = {Names = {"Dark", "Darker", "Light", "Aqua", "Amethyst", "Rose"}}
+        local af = {Names = {"Dark", "Darker", "Light", "Aqua", "Amethyst", "Rose", "Red"}}
         for ag, ah in next, ab:GetChildren() do
             local aj = ac(ah)
             af[aj.Name] = aj
